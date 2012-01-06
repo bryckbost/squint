@@ -1,0 +1,16 @@
+{
+  // Required
+  "name": "Squint",
+  "version": "0.0.1",
+
+  // Recommended
+  "description": "",
+  "icons": {},
+  "default_locale": "en",
+
+  // Pick one (or none)
+  "browser_action": {...},
+
+  // Add any of these that you need
+  "homepage_url": "http://path/to/homepage",
+}
