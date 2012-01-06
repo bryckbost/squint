@@ -7,5 +7,3 @@ chrome.browserAction.onClicked.addListener(function(tab) {
     }
   );
 });
-
-chrome.browserAction.setBadgeBackgroundColor({color:[0, 200, 0, 100]});
