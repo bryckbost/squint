@@ -1,16 +1,12 @@
 {
-  // Required
   "name": "Squint",
   "version": "0.0.1",
-
-  // Recommended
-  "description": "",
-  "icons": {},
-  "default_locale": "en",
-
-  // Pick one (or none)
-  "browser_action": {...},
-
-  // Add any of these that you need
-  "homepage_url": "http://path/to/homepage",
+  "description": "Blur content on the page to quickly gauge proximity and alignment.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title" : "Blur content…"
+  },
+  "icons" : {},
+  "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+  "background_page": "background.html"
 }
