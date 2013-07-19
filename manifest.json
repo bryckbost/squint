@@ -1,7 +1,8 @@
 {
   "name": "Squint",
-  "version": "0.1.0",
-  "description": "Blur content on the page to quickly gauge proximity and alignment.",
+  "version": "0.1.1",
+  "manifest_version": 2,
+  "description": "Blur content on the page.",
   "browser_action": {
     "default_icon": "icon.png",
     "default_title" : "Blur content…"
@@ -12,5 +13,8 @@
     "128": "squint-icon.png"
   },
   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
-  "background_page": "background.html"
+  "background": {
+    "page": "background.html"
+  }
 }
+
